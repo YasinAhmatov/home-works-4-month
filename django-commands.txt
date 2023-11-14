@@ -1,0 +1,7 @@
+django-admin startproject core . -- создает django проект (core название проекта)
+py manage.py runserver -- запуск проекта
+py manage.py makemigrations -- для сохранение данных в базе
+py manage.py migrate -- для добавление в базу
+'DIRS': [BASE_DIR / 'frontend/templates'] -- добавляем созданные папки
+py ..\manage.py startapp settings -- создаем прилодение settings
+py .\manage.py createsuperuser -- создаем супер пользователя
